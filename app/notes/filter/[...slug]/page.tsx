@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: NotesByCategoryProps): Promis
     openGraph: {
       title: `${tag} Notes | NoteHub`,
       description: `Browse and manage ${tag.toLowerCase()} notes in NoteHub.`,
-      url: `https://07-routing-nextjs-theta-olive.vercel.app/notes/filter/${slug.join('/')}`,
+      url: `https://08-zustand-three-cyan.vercel.app/notes/filter/${tag}`,
       images: [
         {
           url: 'https://ac.goit.global/fullstack/react/og-meta.jpg',
